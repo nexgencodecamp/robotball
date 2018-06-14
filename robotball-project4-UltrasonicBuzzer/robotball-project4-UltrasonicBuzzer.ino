@@ -1,3 +1,4 @@
+// Project 4 - Ultrasonic Buzzer
 #include "Ultrasonic.h"
 
 Ultrasonic ultrasonic(7);
@@ -6,6 +7,7 @@ void setup(){
   pinMode(8, OUTPUT);
   Serial.begin(9600);
 }
+
 void loop(){
     long RangeInInches;
     long RangeInCentimeters;

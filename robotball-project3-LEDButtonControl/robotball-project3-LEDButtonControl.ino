@@ -1,3 +1,4 @@
+// Project 2 - LED Button Control
 #define BUTTON 2
 #define LED 3
 
@@ -19,6 +20,5 @@ void loop() {
   else if(buttonVal == 0){
     digitalWrite(LED, LOW);
   }
-
   delay(200);
 }

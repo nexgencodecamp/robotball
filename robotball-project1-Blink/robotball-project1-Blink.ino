@@ -1,4 +1,4 @@
-// Project 1 - LED Flasher
+///Project 1 - LED Flasher
 int ledPin = 10;
 
 void setup() {
